@@ -1,0 +1,17 @@
+# Build products
+bin/
+build/
+
+# Dataset and full-resolution outputs (regenerate with run.sh /
+# scripts/prepare_data.py). Logs and PNG previews in results/ are committed.
+data/raw/
+data/input/
+data/output/
+
+# Course materials
+*.pdf
+
+# Submission archive
+proof_of_execution.*
+
+__pycache__/

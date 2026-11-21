@@ -1,0 +1,161 @@
+GPU: NVIDIA GeForce RTX 2050 (compute 8.6, 16 SMs, 4096 MiB), CUDA runtime 12.6
+Operation: equalize | sigma=2.50 | threshold=0 | streams=4 | images=141 | mode=streaming from disk
+Input: data/input
+Output: data/output/equalize
+
+[   1/141] aerials_2.1.01                 512x512   ch=3  stream=0  gpu=  1.593 ms
+[   2/141] aerials_2.1.02                 512x512   ch=3  stream=1  gpu=  0.255 ms
+[   3/141] aerials_2.1.03                 512x512   ch=3  stream=2  gpu=  0.363 ms
+[   4/141] aerials_2.1.04                 512x512   ch=3  stream=3  gpu=  0.377 ms
+[   5/141] aerials_2.1.05                 512x512   ch=3  stream=0  gpu=  0.244 ms
+[   6/141] aerials_2.1.06                 512x512   ch=3  stream=1  gpu=  0.232 ms
+[   7/141] aerials_2.1.07                 512x512   ch=3  stream=2  gpu=  0.197 ms
+[   8/141] aerials_2.1.08                 512x512   ch=3  stream=3  gpu=  0.190 ms
+[   9/141] aerials_2.1.09                 512x512   ch=3  stream=0  gpu=  0.199 ms
+[  10/141] aerials_2.1.10                 512x512   ch=3  stream=1  gpu=  0.194 ms
+[  11/141] aerials_2.1.11                 512x512   ch=3  stream=2  gpu=  0.202 ms
+[  12/141] aerials_2.1.12                 512x512   ch=3  stream=3  gpu=  0.271 ms
+[  13/141] aerials_2.2.01                1024x1024  ch=3  stream=0  gpu=  0.760 ms
+[  14/141] aerials_2.2.02                1024x1024  ch=3  stream=1  gpu=  0.644 ms
+[  15/141] aerials_2.2.03                1024x1024  ch=3  stream=2  gpu=  0.767 ms
+[  16/141] aerials_2.2.04                1024x1024  ch=3  stream=3  gpu=  0.800 ms
+[  17/141] aerials_2.2.05                1024x1024  ch=3  stream=0  gpu=  0.542 ms
+[  18/141] aerials_2.2.06                1024x1024  ch=3  stream=1  gpu=  0.513 ms
+[  19/141] aerials_2.2.07                1024x1024  ch=3  stream=2  gpu=  0.675 ms
+[  20/141] aerials_2.2.08                1024x1024  ch=3  stream=3  gpu=  0.648 ms
+[  21/141] aerials_2.2.09                1024x1024  ch=3  stream=0  gpu=  0.510 ms
+[  22/141] aerials_2.2.10                1024x1024  ch=3  stream=1  gpu=  0.729 ms
+[  23/141] aerials_2.2.11                1024x1024  ch=3  stream=2  gpu=  0.665 ms
+[  24/141] aerials_2.2.12                1024x1024  ch=3  stream=3  gpu=  0.544 ms
+[  25/141] aerials_2.2.13                1024x1024  ch=3  stream=0  gpu=  0.825 ms
+[  26/141] aerials_2.2.14                1024x1024  ch=3  stream=1  gpu=  0.762 ms
+[  27/141] aerials_2.2.15                1024x1024  ch=3  stream=2  gpu=  0.876 ms
+[  28/141] aerials_2.2.16                1024x1024  ch=3  stream=3  gpu=  0.543 ms
+[  29/141] aerials_2.2.17                1024x1024  ch=3  stream=0  gpu=  0.625 ms
+[  30/141] aerials_2.2.18                1024x1024  ch=3  stream=1  gpu=  0.628 ms
+[  31/141] aerials_2.2.19                1024x1024  ch=3  stream=2  gpu=  0.535 ms
+[  32/141] aerials_2.2.20                1024x1024  ch=3  stream=3  gpu=  0.733 ms
+[  33/141] aerials_2.2.21                1024x1024  ch=3  stream=0  gpu=  0.645 ms
+[  34/141] aerials_2.2.22                1024x1024  ch=3  stream=1  gpu=  0.502 ms
+[  35/141] aerials_2.2.23                1024x1024  ch=3  stream=2  gpu=  0.524 ms
+[  36/141] aerials_2.2.24                1024x1024  ch=3  stream=3  gpu=  0.762 ms
+[  37/141] aerials_3.2.25                1024x1024  ch=1  stream=0  gpu=  0.417 ms
+[  38/141] aerials_wash-ir               2250x2250  ch=3  stream=1  gpu=  2.316 ms
+[  39/141] misc_4.1.01                    256x256   ch=3  stream=2  gpu=  0.154 ms
+[  40/141] misc_4.1.02                    256x256   ch=3  stream=3  gpu=  0.164 ms
+[  41/141] misc_4.1.03                    256x256   ch=3  stream=0  gpu=  0.235 ms
+[  42/141] misc_4.1.04                    256x256   ch=3  stream=1  gpu=  0.197 ms
+[  43/141] misc_4.1.05                    256x256   ch=3  stream=2  gpu=  0.158 ms
+[  44/141] misc_4.1.06                    256x256   ch=3  stream=3  gpu=  0.235 ms
+[  45/141] misc_4.1.07                    256x256   ch=3  stream=0  gpu=  0.143 ms
+[  46/141] misc_4.1.08                    256x256   ch=3  stream=1  gpu=  0.257 ms
+[  47/141] misc_4.2.01                    512x512   ch=3  stream=2  gpu=  0.209 ms
+[  48/141] misc_4.2.03                    512x512   ch=3  stream=3  gpu=  0.250 ms
+[  49/141] misc_4.2.05                    512x512   ch=3  stream=0  gpu=  0.255 ms
+[  50/141] misc_4.2.06                    512x512   ch=3  stream=1  gpu=  0.238 ms
+[  51/141] misc_4.2.07                    512x512   ch=3  stream=2  gpu=  0.261 ms
+[  52/141] misc_5.1.09                    256x256   ch=1  stream=3  gpu=  0.082 ms
+[  53/141] misc_5.1.10                    256x256   ch=1  stream=0  gpu=  0.105 ms
+[  54/141] misc_5.1.11                    256x256   ch=1  stream=1  gpu=  0.114 ms
+[  55/141] misc_5.1.12                    256x256   ch=1  stream=2  gpu=  0.071 ms
+[  56/141] misc_5.1.13                    256x256   ch=1  stream=3  gpu=  0.070 ms
+[  57/141] misc_5.1.14                    256x256   ch=1  stream=0  gpu=  0.071 ms
+[  58/141] misc_5.2.08                    512x512   ch=1  stream=1  gpu=  0.132 ms
+[  59/141] misc_5.2.09                    512x512   ch=1  stream=2  gpu=  0.130 ms
+[  60/141] misc_5.2.10                    512x512   ch=1  stream=3  gpu=  0.119 ms
+[  61/141] misc_5.3.01                   1024x1024  ch=1  stream=0  gpu=  0.298 ms
+[  62/141] misc_5.3.02                   1024x1024  ch=1  stream=1  gpu=  0.304 ms
+[  63/141] misc_7.1.01                    512x512   ch=1  stream=2  gpu=  0.122 ms
+[  64/141] misc_7.1.02                    512x512   ch=1  stream=3  gpu=  0.137 ms
+[  65/141] misc_7.1.03                    512x512   ch=1  stream=0  gpu=  0.184 ms
+[  66/141] misc_7.1.04                    512x512   ch=1  stream=1  gpu=  0.212 ms
+[  67/141] misc_7.1.05                    512x512   ch=1  stream=2  gpu=  0.130 ms
+[  68/141] misc_7.1.06                    512x512   ch=1  stream=3  gpu=  0.133 ms
+[  69/141] misc_7.1.07                    512x512   ch=1  stream=0  gpu=  0.136 ms
+[  70/141] misc_7.1.08                    512x512   ch=1  stream=1  gpu=  0.127 ms
+[  71/141] misc_7.1.09                    512x512   ch=1  stream=2  gpu=  0.139 ms
+[  72/141] misc_7.1.10                    512x512   ch=1  stream=3  gpu=  0.133 ms
+[  73/141] misc_7.2.01                   1024x1024  ch=1  stream=0  gpu=  0.283 ms
+[  74/141] misc_boat.512                  512x512   ch=1  stream=1  gpu=  0.134 ms
+[  75/141] misc_gray21.512                512x512   ch=1  stream=2  gpu=  0.119 ms
+[  76/141] misc_house                     512x512   ch=3  stream=3  gpu=  0.180 ms
+[  77/141] misc_ruler.512                 512x512   ch=1  stream=0  gpu=  0.141 ms
+[  78/141] textures_1.1.01                512x512   ch=1  stream=1  gpu=  0.160 ms
+[  79/141] textures_1.1.02                512x512   ch=1  stream=2  gpu=  0.139 ms
+[  80/141] textures_1.1.03                512x512   ch=1  stream=3  gpu=  0.183 ms
+[  81/141] textures_1.1.04                512x512   ch=1  stream=0  gpu=  0.206 ms
+[  82/141] textures_1.1.05                512x512   ch=1  stream=1  gpu=  0.157 ms
+[  83/141] textures_1.1.06                512x512   ch=1  stream=2  gpu=  0.182 ms
+[  84/141] textures_1.1.07                512x512   ch=1  stream=3  gpu=  0.180 ms
+[  85/141] textures_1.1.08                512x512   ch=1  stream=0  gpu=  0.150 ms
+[  86/141] textures_1.1.09                512x512   ch=1  stream=1  gpu=  0.146 ms
+[  87/141] textures_1.1.10                512x512   ch=1  stream=2  gpu=  0.135 ms
+[  88/141] textures_1.1.11                512x512   ch=1  stream=3  gpu=  0.133 ms
+[  89/141] textures_1.1.12                512x512   ch=1  stream=0  gpu=  0.136 ms
+[  90/141] textures_1.1.13                512x512   ch=1  stream=1  gpu=  0.128 ms
+[  91/141] textures_1.2.01                512x512   ch=1  stream=2  gpu=  0.167 ms
+[  92/141] textures_1.2.02                512x512   ch=1  stream=3  gpu=  0.142 ms
+[  93/141] textures_1.2.03                512x512   ch=1  stream=0  gpu=  0.134 ms
+[  94/141] textures_1.2.04                512x512   ch=1  stream=1  gpu=  0.158 ms
+[  95/141] textures_1.2.05                512x512   ch=1  stream=2  gpu=  0.146 ms
+[  96/141] textures_1.2.06                512x512   ch=1  stream=3  gpu=  0.141 ms
+[  97/141] textures_1.2.07                512x512   ch=1  stream=0  gpu=  0.174 ms
+[  98/141] textures_1.2.08                512x512   ch=1  stream=1  gpu=  0.166 ms
+[  99/141] textures_1.2.09                512x512   ch=1  stream=2  gpu=  0.141 ms
+[ 100/141] textures_1.2.10                512x512   ch=1  stream=3  gpu=  0.205 ms
+[ 101/141] textures_1.2.11                512x512   ch=1  stream=0  gpu=  0.182 ms
+[ 102/141] textures_1.2.12                512x512   ch=1  stream=1  gpu=  0.235 ms
+[ 103/141] textures_1.2.13                512x512   ch=1  stream=2  gpu=  0.184 ms
+[ 104/141] textures_1.3.01               1024x1024  ch=1  stream=3  gpu=  0.311 ms
+[ 105/141] textures_1.3.02               1024x1024  ch=1  stream=0  gpu=  0.306 ms
+[ 106/141] textures_1.3.03               1024x1024  ch=1  stream=1  gpu=  0.314 ms
+[ 107/141] textures_1.3.04               1024x1024  ch=1  stream=2  gpu=  0.291 ms
+[ 108/141] textures_1.3.05               1024x1024  ch=1  stream=3  gpu=  0.347 ms
+[ 109/141] textures_1.3.06               1024x1024  ch=1  stream=0  gpu=  0.503 ms
+[ 110/141] textures_1.3.07               1024x1024  ch=1  stream=1  gpu=  0.445 ms
+[ 111/141] textures_1.3.08               1024x1024  ch=1  stream=2  gpu=  0.352 ms
+[ 112/141] textures_1.3.09               1024x1024  ch=1  stream=3  gpu=  0.356 ms
+[ 113/141] textures_1.3.10               1024x1024  ch=1  stream=0  gpu=  0.438 ms
+[ 114/141] textures_1.3.11               1024x1024  ch=1  stream=1  gpu=  0.389 ms
+[ 115/141] textures_1.3.12               1024x1024  ch=1  stream=2  gpu=  0.381 ms
+[ 116/141] textures_1.3.13               1024x1024  ch=1  stream=3  gpu=  0.433 ms
+[ 117/141] textures_1.4.01               1024x1024  ch=1  stream=0  gpu=  0.407 ms
+[ 118/141] textures_1.4.02               1024x1024  ch=1  stream=1  gpu=  0.319 ms
+[ 119/141] textures_1.4.03               1024x1024  ch=1  stream=2  gpu=  0.303 ms
+[ 120/141] textures_1.4.04               1024x1024  ch=1  stream=3  gpu=  0.298 ms
+[ 121/141] textures_1.4.05               1024x1024  ch=1  stream=0  gpu=  0.702 ms
+[ 122/141] textures_1.4.06               1024x1024  ch=1  stream=1  gpu=  0.382 ms
+[ 123/141] textures_1.4.07               1024x1024  ch=1  stream=2  gpu=  0.314 ms
+[ 124/141] textures_1.4.08               1024x1024  ch=1  stream=3  gpu=  0.303 ms
+[ 125/141] textures_1.4.09               1024x1024  ch=1  stream=0  gpu=  0.403 ms
+[ 126/141] textures_1.4.10               1024x1024  ch=1  stream=1  gpu=  0.430 ms
+[ 127/141] textures_1.4.11               1024x1024  ch=1  stream=2  gpu=  0.372 ms
+[ 128/141] textures_1.4.12               1024x1024  ch=1  stream=3  gpu=  0.315 ms
+[ 129/141] textures_1.5.01                512x512   ch=1  stream=0  gpu=  0.118 ms
+[ 130/141] textures_1.5.02                512x512   ch=1  stream=1  gpu=  0.147 ms
+[ 131/141] textures_1.5.03                512x512   ch=1  stream=2  gpu=  0.172 ms
+[ 132/141] textures_1.5.04                512x512   ch=1  stream=3  gpu=  0.239 ms
+[ 133/141] textures_1.5.05                512x512   ch=1  stream=0  gpu=  0.199 ms
+[ 134/141] textures_1.5.06                512x512   ch=1  stream=1  gpu=  0.137 ms
+[ 135/141] textures_1.5.07                512x512   ch=1  stream=2  gpu=  0.148 ms
+[ 136/141] textures_texmos1.p512          512x512   ch=1  stream=3  gpu=  0.145 ms
+[ 137/141] textures_texmos2.p512          512x512   ch=1  stream=0  gpu=  0.138 ms
+[ 138/141] textures_texmos2.s512          512x512   ch=1  stream=1  gpu=  0.130 ms
+[ 139/141] textures_texmos3.p512          512x512   ch=1  stream=2  gpu=  0.146 ms
+[ 140/141] textures_texmos3.s512          512x512   ch=1  stream=3  gpu=  0.140 ms
+[ 141/141] textures_texmos3b.p512         512x512   ch=1  stream=0  gpu=  0.180 ms
+
+Summary
+  Images processed : 141 (failed: 0)
+  Total pixels     : 80.69 megapixels
+  Wall-clock time  : 214.0 ms (batch loop, incl. host I/O)
+  Sum of GPU times : 45.0 ms (per-stream H2D + kernels + D2H)
+  Throughput       : 377.0 megapixels/s end-to-end
+
+Verifying 5 image(s) against the CPU reference...
+  aerials_2.1.01               cpu=     1.24 ms  gpu=  0.305 ms  speedup=    4.1x  differing_pixels=0  max_diff=0  MATCH
+  aerials_2.1.02               cpu=     0.56 ms  gpu=  0.286 ms  speedup=    2.0x  differing_pixels=0  max_diff=0  MATCH
+  aerials_2.1.03               cpu=     0.50 ms  gpu=  0.330 ms  speedup=    1.5x  differing_pixels=0  max_diff=0  MATCH
+  aerials_2.1.04               cpu=     0.45 ms  gpu=  0.264 ms  speedup=    1.7x  differing_pixels=0  max_diff=0  MATCH
+  aerials_2.1.05               cpu=     0.45 ms  gpu=  0.260 ms  speedup=    1.7x  differing_pixels=0  max_diff=0  MATCH
+Verification: 5/5 images bit-exact, overall speedup 2.2x (CPU 3.2 ms vs GPU 1.4 ms)
